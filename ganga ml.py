@@ -2348,3 +2348,12 @@ plt.close()
 
 print("All activation comparison graphs generated successfully!")
 
+# ==============================================================================
+# CONFUSION MATRIX & CPCB WATER QUALITY CLASSIFICATION
+# ==============================================================================
+try:
+    from confusion_matrix import evaluate_water_quality_confusion_matrix
+    print("\nRunning Water Quality Confusion Matrix & Classification Analysis...")
+    evaluate_water_quality_confusion_matrix()
+except Exception as e:
+    print(f"Confusion matrix evaluation note: {e}")
