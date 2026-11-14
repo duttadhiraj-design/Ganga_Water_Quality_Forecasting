@@ -2348,9 +2348,3 @@ plt.close()
 
 print("All activation comparison graphs generated successfully!")
 
-!git config --global user.name "duttadhiraj-design"
-!git config --global user.email "duttadhiraj555@gmail.com"
-
-REPO_URL = "https://github.com/duttadhiraj-design/Ganga_Water_Quality_Forecasting"
-
-!git clone $REPO_URL
